@@ -1,0 +1,27 @@
+# Build outputs
+Makefile
+Makefile.Debug
+Makefile.Release
+build/
+debug/
+release/
+*.exe
+*.o
+*.obj
+moc_*.cpp
+moc_predefs.h
+ui_widget.h
+
+# Database files
+*.db
+
+# Qt
+.qmake.stash
+.qtc_clangd/
+StuMgr.pro.user
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.autosave

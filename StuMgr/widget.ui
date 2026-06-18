@@ -445,7 +445,7 @@ background-color: rgb(0, 170, 255);</string>
       <string>年龄：</string>
      </property>
     </widget>
-    <widget class="QTextEdit" name="reg_pwd">
+    <widget class="QLineEdit" name="reg_pwd">
      <property name="geometry">
       <rect>
        <x>400</x>
@@ -463,6 +463,9 @@ background-color: rgb(0, 170, 255);</string>
      <property name="styleSheet">
       <string notr="true">border-radius:8px;
 background-color: rgb(0, 170, 255);</string>
+     </property>
+     <property name="echoMode">
+      <enum>Password</enum>
      </property>
      <property name="placeholderText">
       <string>密码：</string>
